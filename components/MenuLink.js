@@ -140,7 +140,7 @@ const MenuLink = () => {
                 activeStyle={styles.activeLink}
                 style={styles.link}
               >
-                <a>ContactPage US</a>
+                <a>Contact US</a>
               </Link>
             </Button>
           </span>
@@ -201,7 +201,7 @@ const MenuLink = () => {
                   href="/ContactPage"
                   className='dropDownMenuLink'
                 >
-                 <a>ContactPage</a>
+                 <a>Contact Us</a>
                 </Link>
               </li>
             </ul>

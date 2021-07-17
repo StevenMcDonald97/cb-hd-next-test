@@ -9,7 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <head>
+        <Head>
           <meta charset="utf-8" />
           <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet"/>
           <title>Test Your Senses</title>
-        </head>
+        </Head>
         <body>
           <Main />
           <NextScript />

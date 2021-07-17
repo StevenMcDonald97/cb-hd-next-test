@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TestCB from "../components/TestCB";
 import TestHD from "../components/TestHD";
 import TestFreq from "../components/TestFreq";
+import MenuLink from "../components/MenuLink"
 
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
@@ -52,31 +53,34 @@ const TestsPage = () => {
   };
 
   return (
-    <div className="page">
-      <div></div>
-      <div className="main">
-        <div className="tests-tab-container">
-          <div className="tests-tab-wrapper">
-            <AppBar position="static" style={styles}>
-              <Tabs
-                value={value}
-                onChange={handleChange}
-                aria-label="simple tabs example"
-              >
-                <Tab label="Color Blind Test" {...a11yProps(0)} />
-                <Tab label="Hearing Test #1" {...a11yProps(1)} />
-                <Tab label="Hearing Test #2" {...a11yProps(2)} />
-              </Tabs>
-            </AppBar>
-            <TabPanel value={value} index={0}>
-              <TestCB />
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-              <TestHD />
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-              <TestFreq />
-            </TabPanel>
+    <div>
+      <MenuLink/>
+      <div className="page">
+        <div></div>
+        <div className="main">
+          <div className="tests-tab-container">
+            <div className="tests-tab-wrapper">
+              <AppBar position="static" style={styles}>
+                <Tabs
+                  value={value}
+                  onChange={handleChange}
+                  aria-label="simple tabs example"
+                >
+                  <Tab label="Color Blind Test" {...a11yProps(0)} />
+                  <Tab label="Hearing Test #1" {...a11yProps(1)} />
+                  <Tab label="Hearing Test #2" {...a11yProps(2)} />
+                </Tabs>
+              </AppBar>
+              <TabPanel value={value} index={0}>
+                <TestCB />
+              </TabPanel>
+              <TabPanel value={value} index={1}>
+                <TestHD />
+              </TabPanel>
+              <TabPanel value={value} index={2}>
+                <TestFreq />
+              </TabPanel>
+            </div>
           </div>
         </div>
       </div>

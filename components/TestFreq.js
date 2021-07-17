@@ -150,7 +150,7 @@ const TestPitch = () => {
           ) : showScore === false ? (
               <div className="test-content">
                 <div className="section-description">
-                  <p>Press the play button and listen for a tone. Press &quot;Heard&quot; if you hear the tone, or press &quot Didn&apos;t hear &quot; if you do not hear it after <b>10 seconds</b>.</p> 
+                  <p>Press the play button and listen for a tone. Press &quot;Heard&quot; if you hear the tone, or press &quot;Didn&apos;t hear &quot; if you do not hear it after <b>10 seconds</b>.</p> 
                   <p>If you need to you can adjust the volume to a more comfortable level.</p>
                   <p><b>When you click either &quot;Didn&apos;t Hear&quot; or &quot;Heard&quot; the next audio will be loaded and you will need to press play again.</b></p>
                 </div>
