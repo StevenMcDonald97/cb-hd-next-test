@@ -535,6 +535,9 @@ input[type='number'] {
   margin: 0 auto;
   padding: 0 auto;
   text-align:center;
+  position:relative;
+  height:825px;
+  margin-bottom:15px;
 }
 
 .about-container > div {
@@ -542,11 +545,19 @@ input[type='number'] {
   width: 45%;
   display:inline-block;
   margin-left:3%;
-  margin-right:1%;
+  margin-right:1;
+  position:relative;
 }
 
-.about-container > div > h2,
-.about-container > div > p {
+.about-container > div > div {
+  position:absolute;
+  top:15px;
+  height:750px;
+}
+
+
+.about-container > div > div > h2,
+.about-container > div > div > p {
   margin-left:10%;
   width:80%;
 }

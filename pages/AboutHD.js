@@ -48,14 +48,14 @@ const AboutHD = () => {
               .filter((content) => content.filter === "types")
               .map((info, i) => (
                 <div className="gridFour-2x1" style={{ gridGap: "10rem" }} key={"types"+i}>
-                  <Grid item md={12}>
+                  <Grid item md={10}>
                     <Image
                       className="types-imageHD about-img"
                       src={info.image}
                       alt={info.altImage}
                     />
                   </Grid>
-                  <Grid item md={10}>
+                  <Grid item md={12}>
                     <Section
                       key={i}
                       title={info.title}
