@@ -536,17 +536,17 @@ input[type='number'] {
   padding: 0 auto;
   text-align:center;
   position:relative;
-  height:825px;
   margin-bottom:15px;
 }
 
 .about-container > div {
-  margin: 0 auto;
+  margin: 0% auto;
   width: 45%;
   display:inline-block;
   margin-left:3%;
-  margin-right:1;
+  margin-right:1%;
   position:relative;
+  vertical-align: top;
 }
 
 .about-container > div > div {
@@ -571,11 +571,8 @@ input[type='number'] {
   border-radius: 5px;
 }
 
-.member-section {
-  width: 45%;
-  display:inline-block;
-  margin-left:3%;
-  margin-right:1%;
+.member-container {
+  vertical-align: top;
 }
 
 .fa-tools {
@@ -592,6 +589,18 @@ input[type='number'] {
   margin: 0 auto;
 }
 
+.team-writeup{
+  margin: 3rem 5rem;
+}
+
+@media only screen and (min-width: 492px) {
+  .about-container {
+    height:825px;
+  }
+  .about-container.top-container {
+    height:1050px;
+  }
+}
 @media only screen and (max-width: 492px) {
   .header-CPA-container{
     position:relative;
@@ -716,13 +725,13 @@ input[type='number'] {
     margin: 0;
   }
 
-
   .gridThree-2x1 {
-    display: block;
+    display: block !important;
   }
 
   .gridThree-2x1 .about-img{
-    display:none;
+    display:none !important;
+    height:0 !important;
   }
 
   .gridFour-2x1 {
@@ -732,7 +741,8 @@ input[type='number'] {
   }
 
   .gridFour-2x1 .about-img{
-    display:none;
+    display:none !important;
+    height:0 !important;
   }
 
   .team-img{
@@ -760,9 +770,11 @@ input[type='number'] {
   .MuiBox-root-6 {
     padding:0px !important;
   }
+
   .PrivateTabIndicator-root-1{
     width:33% !important;
   }
+
   .test-content {
     max-width:100%;
   }
@@ -772,14 +784,40 @@ input[type='number'] {
   }
 
   .about-container{
-    padding-left:8%;
+    display:block;
+    width:100%;
   }
 
   .about-container p{
-    width:180% !important;
     margin-top:5%;
     margin-bottom:5%;
+    height:auto;
   }
+
+  .about-container>div {
+    display:block;
+    margin: 0 auto;  
+    width: 75%;
+  }
+
+  .about-container>div>div {
+    display:block;
+  }  
+
+  .about-container>div>div>p {
+    margin-left:0;
+    width:100%;
+  }  
+
+  .about-container>div>div>h2{
+    margin-left:0;
+    width:100%;
+  }
+
+  .about-image-container{
+    height:0px;
+  }
+
   .section-description {
     margin: 10px;
   }
@@ -788,5 +826,14 @@ input[type='number'] {
     margin:0 auto;
   }
 
-}
+  .member-container{
+    display:block;
+    width:100%;
+    height:auto;
+  }
 
+  .team-writeup{
+    margin: 5rem 3rem;
+  }
+
+}

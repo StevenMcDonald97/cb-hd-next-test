@@ -22,7 +22,7 @@ const AboutHD = () => {
               .filter((content) => content.filter === "about")
               .map((info, i) => (
                 <div className="gridThree-2x1" key={"about"+i}>
-                  <Grid item md={12}>
+                  <Grid item md={12} className="about-image-container">
                     <Section
                       key={i}
                       title={info.title}
@@ -30,7 +30,7 @@ const AboutHD = () => {
                       className="about-sectionCB section-description"
                     />
                   </Grid>
-                  <Grid item md={10}>
+                  <Grid item md={10} className="about-image-container">
                     <Image
                       className="about-imageCB about-img"
                       src={info.image}
@@ -48,7 +48,7 @@ const AboutHD = () => {
               .filter((content) => content.filter === "types")
               .map((info, i) => (
                 <div className="gridFour-2x1" style={{ gridGap: "10rem" }} key={"types"+i}>
-                  <Grid item md={10}>
+                  <Grid item md={10} className="about-image-container">
                     <Image
                       className="types-imageHD about-img"
                       src={info.image}
@@ -82,7 +82,7 @@ const AboutHD = () => {
                       className="test-sectionHD"
                     />
                   </Grid>
-                  <Grid item lg={4} md={4}>
+                  <Grid item lg={4} md={4} >
                     <Image
                       className="test-imageHD about-img"
                       src={info.image}
@@ -99,7 +99,7 @@ const AboutHD = () => {
               .filter((content) => content.filter === "pitch-test")
               .map((info, i) => (
                 <div className="gridFour-2x1" key={"pitch-test"+i}>
-                  <Grid item lg={4} md={4}>
+                  <Grid item lg={4} md={4} className="about-image-container">
                     <Image
                       className="pitch-test-imageHD about-img"
                       src={info.image}

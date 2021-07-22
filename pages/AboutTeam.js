@@ -3,6 +3,8 @@ import stevenPhoto from "../public/assets/about-images/steven-photo.jpg";
 import kavithaPhoto from "../public/assets/about-images/kavitha-photo.jpg";
 import joeyPhoto from "../public/assets/about-images/professional-joey-photo.jpg";
 import neoPhoto from '../public/assets/about-images/neo-profile.jpg';
+import davidPhoto from '../public/assets/about-images/david-photo.jpg';
+
 import '../styles/MainPage.module.css'
 import Image from 'next/image'
 import MenuLink from "../components/MenuLink"
@@ -14,8 +16,8 @@ const AboutTeam = () => {
       <div className="aboutTeam">
         <h1 style={{ textAlign: "center" }} className="team-header">About the Team</h1>
 
-        <div className="about-container" style={{ height:"950px" }}>
-          <div>
+        <div className="about-container top-container" >
+          <div className="member-container" style={{ minHeight:"1050px" }}>
             <div>
               <Image
                 src={kavithaPhoto}
@@ -26,18 +28,19 @@ const AboutTeam = () => {
               />
               <h2>Kavitha Krishnamurthy</h2>
               <p style={{ fontSize: "1.3rem" }}>
-                I live in Chennai, TamilNadu and I&apos;m driven by my passion to build
-                and create something that will have an enduring impact on society. I
-                believe that we are not remembered by the amount of money we have
-                made but rather by the lives we have changed in the process. This
-                website is a passion project of mine, developed with the aim of
-                creating awareness and diagnosing color blindness and hearing
-                problems among the people of India and my sincere thanks to Hsueh
-                Yen Neo, Steven McDonald and Joey Bruno for making this possible.
+        				I live in Chennai, TamilNadu, currently working as a PMO Team Leader in 
+        				an IT company. I am driven by my passion to build and create something 
+        				that will have an enduring impact on society. I believe that we are not 
+        				remembered by the amount of money we have made but rather by the lives we 
+        				have changed. This website is a passion project of mine 
+        				developed with the aim of creating awareness and diagnosing color 
+        				blindness and hearing problems among the people of India and I am thankful 
+        				to Steven McDonald, Joey Bruno, David Oglesby and Hsueh Yen Neo for making 
+        				this possible.
               </p>
             </div>
           </div>
-          <div>
+          <div className="member-container" style={{ minHeight:"950px" }}>
             <div >
               <Image
                 src={neoPhoto}
@@ -64,7 +67,7 @@ const AboutTeam = () => {
           className="about-container"
           style={{ margin: ".5rem 0" }}
         >
-          <div>
+          <div className="member-container" style={{ minHeight:"750px" }}>
             <div>
               <Image
                 src={stevenPhoto}
@@ -82,7 +85,7 @@ const AboutTeam = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="member-container" style={{ minHeight:"750px" }}>
             <div>
               <Image 
                 src={joeyPhoto} 
@@ -102,21 +105,49 @@ const AboutTeam = () => {
             </div>
           </div>
         </div>
+		<div
+          className="about-container"
+          style={{ margin: ".5rem 0", height:"950px" }}
 
-        <div style={{ margin: "3rem"}}>
+        >
+          <div className="member-container" style={{ minHeight:"1050px" }}>
+            <div>
+              <Image
+                src={davidPhoto}
+                className="team-img"
+                alt="David Oglesby"
+                width="400"
+                height="400"
+              />
+              <h2>David Oglesby </h2>
+              <p style={{ fontSize: "1.3rem" }}>
+        				Interested in the creative and problem-solving aspects of programming,
+        				I taught myself how to code at an early age. Now a full-stack web 
+        				developer, I continue to enjoy building web applications to improve
+        				efficiency and automate processes, while (trying!) to stay abreast
+        				of the newest languages and updates in the industry. Parallel to that,
+        				I enjoy mentoring and teaching others how to code. I&apos;m happy I could
+        				help out on this project, even if in a small way, and I hope this 
+        				website will help many people and have an enduring impact on society.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="team-writeup">
           <h2 style={{ textAlign: "center", margin:"15px 0"  }}>How We Got Together</h2>
           <p style={{ fontSize: "1.3rem"}}>
-            The internet is a place where anyone can meet anyone else from around
-            the world. That was how our team formed, four people from different
-            corners of the globe united by a common goal of making something for
-            those in need. When we started we had no goal, just the knowledge that
-            when people with good intentions come together, good things will
-            happen and just like the internet brought us together, it has given us
-            the chance to help people living in places that we may never visit. We
-            decided to design a website and give it to an NGO, so that while
-            conducting health camps across India, they can use it as web based
-            tool for diagnosing color blindness and hearing problems. From all
-            four of us, this website is our small contribution to society.
+            The internet is a place where anyone can meet anyone else from around the 
+            world. That was how our team formed,five people from different corners of 
+            the globe united by a common goal of making something for those in need. 
+            When we started we had no goal, just the knowledge that when people with 
+            good intentions come together, good things will happen and just like the 
+            internet brought us together, it has given us the chance to help people 
+            living in places that we may never visit. We decided to use the skill set 
+            each of us had, to design this website and then give that to an NGO, so 
+            that while conducting health camps it can be used as a web based tool for 
+            diagnosing color blindness and hearing problems. From all five of us, this 
+            website is our small contribution to society.  
+
           </p>
         </div>
       </div>

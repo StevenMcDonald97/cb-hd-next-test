@@ -30,7 +30,7 @@ const AboutCB = () => {
                       description={info.infos}
                     />
                   </Grid>
-                  <Grid item md={10}>
+                  <Grid item md={10} className="about-image-container">
                     <Image
                       className="about-imageCB about-img"
                       src={info.image}
@@ -48,7 +48,7 @@ const AboutCB = () => {
               .filter((content) => content.filter === "types")
               .map((info, i) => (
                 <div className="gridFour-2x1" style={{ gridGap: "2rem" }} key={"types"+i}>
-                  <Grid item md={12}>
+                  <Grid item md={12} className="about-image-container">
                     <Image
                       className="types-imageCB about-img"
                       src={info.image}
@@ -84,7 +84,7 @@ const AboutCB = () => {
                       description={info.infos}
                     />
                   </Grid>
-                  <Grid item lg={4} md={4}>
+                  <Grid item lg={4} md={4} className="about-image-container">
                     <Image
                       className="test-imageCB about-img"
                       src={info.image}

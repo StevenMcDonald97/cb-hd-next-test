@@ -156,7 +156,7 @@ const MenuLink = () => {
         <div className={`dropDownMenuWrap ${menuWrapClass}`} onClick={clickOutsideMenu}>
           <div>
             <ul className="dropDownMenu">
-              <li key="home">          
+              <li key="home" className='dropDownMenuLink'>          
                 <Link
                   href="/"
                   className='dropDownMenuLink'
@@ -164,7 +164,7 @@ const MenuLink = () => {
                   <a>HOME</a>
                 </Link>
               </li>
-              <li key="cbinfo">          
+              <li key="cbinfo" className='dropDownMenuLink'>          
                 <Link
                   href="/AboutCB"
                   className='dropDownMenuLink'
@@ -172,7 +172,7 @@ const MenuLink = () => {
                   <a>COLOR BLINDNESS INFORMATION</a>
                 </Link>
               </li>
-              <li key="hdinfo">          
+              <li key="hdinfo" className='dropDownMenuLink'>          
                 <Link
                   href="/AboutHD"
                   className='dropDownMenuLink'
@@ -180,7 +180,7 @@ const MenuLink = () => {
                   <a>HEARING INFORMATION</a>
                 </Link>
               </li>              
-              <li key="TestsPage">   
+              <li key="TestsPage" className='dropDownMenuLink'>   
                 <Link
                   href="/TestsPage"
                   className='dropDownMenuLink'
@@ -188,7 +188,7 @@ const MenuLink = () => {
                   <a>TAKE A TEST</a>
                 </Link>
               </li>
-              <li key="about">          
+              <li key="about" className='dropDownMenuLink'>          
                 <Link
                   href="/AboutTeam"
                   className='dropDownMenuLink'
@@ -196,7 +196,7 @@ const MenuLink = () => {
                   <a>TEAM</a>
                 </Link>
               </li>
-              <li key="ContactPage">   
+              <li key="ContactPage" className='dropDownMenuLink'>   
                 <Link
                   href="/ContactPage"
                   className='dropDownMenuLink'
