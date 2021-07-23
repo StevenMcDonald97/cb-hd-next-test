@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/TestCB.module.css";
 
 import testCardsOriginal from "../data/testCardsCB";
 import TestCard from "../components/TestCard";
