@@ -78,10 +78,10 @@ const AboutTeam = () => {
               />
               <h2>Steven McDonald</h2>
               <p style={{ fontSize: "1.3rem" }}>
-                I am a software engineer and a recent graduate of Cornell
-                University, living in the Bay Area, California. I was drawn to this
-                project by the chance to use my programming skills to help people
-                and have a positive impact on the world.
+                I am a full stack developer living in the Bay Area, California, with a degree
+                from Cornell University. I was drawn to this project by the chance to use my 
+                programming skills for humanitarian good, and by the need for hearing
+                and eye tests in under-represented parts of the world.
               </p>
             </div>
           </div>
