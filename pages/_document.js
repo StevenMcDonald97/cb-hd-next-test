@@ -20,6 +20,16 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet"/>
           <title>Test Your Senses</title>
+         {/* Global Site Tag (gtag.js) - Google Analytics */}
+
+          <script
+
+            async
+
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+
+          />
+
           <script
 
             dangerouslySetInnerHTML={{
@@ -41,6 +51,7 @@ class MyDocument extends Document {
             }}
 
           />
+
 
         </Head>
         <body>
