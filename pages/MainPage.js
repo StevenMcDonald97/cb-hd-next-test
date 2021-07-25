@@ -75,10 +75,9 @@ const MainPage = () => {
             </a>
           </div>
           <div className="footer-description">
-            Finely Tuned by Kavitha Krishnamurthy, Hsueh Yen Neo, Steven McDonald, and Joey Bruno 
+            Finely Tuned by Kavitha Krishnamurthy, Hsueh Yen Neo, Steven McDonald, Joey Bruno, and David Oglesby
             <br />
             Contact our team at: <a href = "mailto: team2senses@gmail.com ">team2senses@gmail.com</a>
-            
           </div>
         </div>
       </div>

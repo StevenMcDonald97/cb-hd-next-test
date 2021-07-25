@@ -687,6 +687,10 @@ input[type='number'] {
     padding: 0 20px;
   }
 
+  .nav-wrapper, .navbar span {
+    display:block;
+  }
+
   /* dropdown menu */
   .custom-dropdown-menu{
     height:60px;
@@ -869,6 +873,10 @@ input[type='number'] {
   .about-container>div>div>h2{
     margin-left:0;
     width:100%;
+  }
+
+  .top-container .member-container{
+    min-height:1100px;
   }
 
   .about-image-container{

@@ -17,7 +17,7 @@ const AboutTeam = () => {
         <h1 style={{ textAlign: "center" }} className="team-header">About the Team</h1>
 
         <div className="about-container top-container" >
-          <div className="member-container" style={{ minHeight:"1050px" }}>
+          <div className="member-container" >
             <div>
               <Image
                 src={kavithaPhoto}
@@ -79,9 +79,9 @@ const AboutTeam = () => {
               <h2>Steven McDonald</h2>
               <p style={{ fontSize: "1.3rem" }}>
                 I am a full stack developer living in the Bay Area, California, with a degree
-                from Cornell University. I was drawn to this project by the chance to use my 
-                programming skills for humanitarian good, and by the need for hearing
-                and eye tests in under-represented parts of the world.
+                from Cornell University. I joined this project because it is an opportunity to use my 
+                skills for humanitarian good, and I want to help tackle the need for accessible hearing
+                and eye tests in India. When I&apos;m not coding, I love painting and swing dancing. 
               </p>
             </div>
           </div>
