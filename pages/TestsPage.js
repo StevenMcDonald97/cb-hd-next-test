@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TestCB from "../components/TestCB";
+import ColorBlindnessTest from "../components/ColorBlindnessTest";
 import TestHD from "../components/TestHD";
 import TestFreq from "../components/TestFreq";
 import MenuLink from "../components/MenuLink"
@@ -72,7 +72,7 @@ const TestsPage = () => {
                 </Tabs>
               </AppBar>
               <TabPanel value={value} index={0}>
-                <TestCB />
+                <ColorBlindnessTest />
               </TabPanel>
               <TabPanel value={value} index={1}>
                 <TestHD />
