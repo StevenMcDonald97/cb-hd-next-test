@@ -77,7 +77,7 @@ const MainPage = () => {
           <div className="footer-description">
             Finely Tuned by Kavitha Krishnamurthy, Hsueh Yen Neo, Steven McDonald, Joey Bruno, and David Oglesby
             <br />
-            Winner of the <a style="color:#50b7ff" href='https://www.epdtonthenet.net/article/189815/RS-celebrates--Tech-for-Good--STEM-female-achievement-at-FDM-everywoman-in-Technology-Awards-2022.aspx'> Tech for Good Award </a> from FDM Everywoman Technology Awards 2022
+            Winner of the <a style={{color:"#50b7ff"}} href='https://www.epdtonthenet.net/article/189815/RS-celebrates--Tech-for-Good--STEM-female-achievement-at-FDM-everywoman-in-Technology-Awards-2022.aspx'> Tech for Good Award </a> from FDM Everywoman Technology Awards 2022
             <br />
             Contact our team at: <a href = "mailto: team2senses@gmail.com ">team2senses@gmail.com</a>
           </div>
