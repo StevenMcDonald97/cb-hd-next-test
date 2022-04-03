@@ -52,7 +52,7 @@ const MainPage = () => {
 
       <div className="footer">
         <div className="content-wrapper">
-          <div className="social-media-icons-container" hidden>
+          <div className="social-media-icons-container" style={{display:"none"}}>
             <a href=" ">
               <div className="icon white-bg">
                 <FaLinkedinIn />
