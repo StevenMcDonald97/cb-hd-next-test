@@ -15,23 +15,25 @@ const ContactPage = () => {
 	      <h1 style={{ fontSize: "3rem", marginTop:"30px", textAlign:"center"}}>Charities Using The2Senses </h1>
 	      <br />
 	      <div style={{ textAlign:"center"}}>
-		<div style={{width:"45%", display:"inline-block", marginTop:"30px", marginRight:"25px", textAlign:"center"}}>
+		<div style={{width:"45%", display:"inline-block", marginTop:"30px", textAlign:"center"}}>
 		      <Image
 			src={photo1}
 			alt="The 2 Senses color blindness testbeing used"
-			height="250px"
+			height="250"
+			width="400"
 			/>
 		</div>
-		<div style={{ width:"45%", display:"inline-block", marginTop:"30px", marginLeft:"25px", textAlign:"center"}}>
+		<div style={{ width:"45%", display:"inline-block", marginTop:"30px", textAlign:"center"}}>
 		      <Image
 			src={photo2}
 			alt="A charity using The 2 Senses"
-			height="250px"
+			height="250"
+			width="400"
 		      />
 		</div>
 	      </div>
 	      <div style={{ textAlign:"center"}}>
-		<div style={{ verticalAlign:"top", display:"inline-block", marginTop:"15px", marginRight:"30px", width:"400px", textAlign:"center"}}>
+		<div style={{ verticalAlign:"top", width:"45%", display:"inline-block", marginTop:"15px", marginRight:"30px", textAlign:"center"}}>
 			<h2 style={{  textAlign:"left"}}>Hope Public Charitable Trust</h2>
 			<p style={{ textAlign:"left"}}>
 				6b/26, Sarangapani Street, Krishnapuram, Ambattur
@@ -42,7 +44,7 @@ const ContactPage = () => {
 				<a style={{ color: "rgb(80, 183, 255)"}} href="https://hopechennai.com/our-services/"> Our Services | Hope Chennai Trust </a>
 			</div>	
 		</div>
-		<div style={{ verticalAlign:"top", display:"inline-block", marginTop:"15px", marginLeft:"30px", width:"400px", textAlign:"center"}}>
+		<div style={{ verticalAlign:"top", width:"45%", display:"inline-block", marginTop:"15px", marginLeft:"30px", textAlign:"center"}}>
 			<h2 style={{ textAlign:"left" }}>Samarthanam Trust for the Disabled</h2>
 			<p style={{ textAlign:"left" }}>
 				CA:39, 15th Cross, 16th Main, Sector-4, 
