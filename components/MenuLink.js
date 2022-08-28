@@ -206,7 +206,7 @@ const MenuLink = () => {
                   href="/ContactPage"
                   className='dropDownMenuLink'
                 >
-                 <a>Contact Us</a>
+                 <a>Website Shared Details</a>
                 </Link>
               </li>
             </ul>
