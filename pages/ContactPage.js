@@ -33,7 +33,7 @@ const ContactPage = () => {
 		</div>
 	      </div>
 	      <div style={{ textAlign:"center"}}>
-		<div style={{ verticalAlign:"top", paddingLeft: 8%, width:"45%", display:"inline-block", marginTop:"15px", marginRight:"30px", textAlign:"center"}}>
+		<div style={{ verticalAlign:"top", paddingLeft: "8%", width:"45%", display:"inline-block", marginTop:"15px", marginRight:"30px", textAlign:"center"}}>
 			<h2 style={{  textAlign:"left"}}>Hope Public Charitable Trust</h2>
 			<p style={{ textAlign:"left"}}>
 				6b/26, Sarangapani Street, Krishnapuram, Ambattur
