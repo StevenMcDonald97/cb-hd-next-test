@@ -145,7 +145,7 @@ const MenuLink = () => {
                 activeStyle={styles.activeLink}
                 style={styles.link}
               >
-                <a>Contact US</a>
+                <a>WEBSITE SHARED DETAILS</a>
               </Link>
             </Button>
           </span>
