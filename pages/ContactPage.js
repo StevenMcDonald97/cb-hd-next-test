@@ -15,8 +15,8 @@ const ContactPage = () => {
 		Charities Using The2Senses 
 	      </h2>
 
-		<h3 style={{ width: "500px", margin:"auto", textAlign:"left" }}>Hope Public Charitable Trust</h3>
-		<p style={{ width: "500px", margin:"auto", textAlign:"left" }}>
+		<h3 style={{ width: "500px", margin:"auto", textAlign:"left"}}>Hope Public Charitable Trust</h3>
+		<p style={{ width: "500px", margin:"auto", textAlign:"left"}}>
 			6b/26, Sarangapani Street, Krishnapuram, Ambattur
 			Chennai - 600053
 			
