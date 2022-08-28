@@ -15,14 +15,14 @@ const ContactPage = () => {
 	      <h1 style={{ fontSize: "3rem", marginTop:"30px", textAlign:"center"}}>Charities Using The2Senses </h1>
 	      <br />
 	      <div style={{ textAlign:"center"}}>
-		<div style={{ maxWidth:"300px" display:"inline-block", marginTop:"30px", marginRight:"15px", textAlign:"center"}}>
+		<div style={{ maxWidth:"300px", display:"inline-block", marginTop:"30px", marginRight:"15px", textAlign:"center"}}>
 		      <Image
 			src={photo1}
 			alt="The 2 Senses being used"
 			height="250"
 		      />
 		</div>
-		<div style={{ maxWidth:"300px" display:"inline-block", marginTop:"30px", marginLeft:"15px", textAlign:"center"}}>
+		<div style={{ maxWidth:"300px", display:"inline-block", marginTop:"30px", marginLeft:"15px", textAlign:"center"}}>
 		      <Image
 			src={photo2}
 			alt="The 2 Senses being used"
